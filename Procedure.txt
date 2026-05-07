@@ -1,0 +1,5 @@
+# Data exploration of neuro datasets.
+# Counting each images in category,
+# Display sample images,
+# check image dimensions,
+# Understand labels.
