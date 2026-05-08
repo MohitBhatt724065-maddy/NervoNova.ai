@@ -1,6 +1,7 @@
 # What i exactlt did i save in Day 3?
 import numpy as np
 import os
+
 train_shape = np.load("Processed_Data/train_shape.npy")
 test_shape = np.load("Processed_Data/test_shape.npy")
 
@@ -18,4 +19,4 @@ print(f"Color Channels : {test_shape[[3]]}" )
 for f in ["test_X.dat", "test_y.dat", "train_X.dat", "train_y.dat"]:
     path = f"Processed_Data/{f}"
     size = os.path.getsize(path)/(1024**3)
-    print(f"{f:20s} --> {size:.2f} GB")
+    print(f"{f} : {size:.2f} GB")
