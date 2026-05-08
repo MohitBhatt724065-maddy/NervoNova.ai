@@ -1,7 +1,6 @@
 # What i exactlt did i save in Day 3?
 import numpy as np
 import os
-
 train_shape = np.load("Processed_Data/train_shape.npy")
 test_shape = np.load("Processed_Data/test_shape.npy")
 
